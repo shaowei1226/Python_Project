@@ -1,0 +1,153 @@
+body{
+    background-image: url(../images/maxresdefault.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    margin-right: 15px;
+    font-size: 18px;
+}
+h2{
+    margin: 0;
+    font-size: 16px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+header h1{
+    display: none;
+}
+.wrap{
+    margin: auto;
+    max-width: 1200px;
+    height: auto;
+}
+header img{
+    width: 50%;
+    height: 260px;
+}
+.apple1{
+    width: 16%;
+}
+.apple2{
+    width: 32%;
+}
+.prize{
+    border-radius: 5px;
+    width: 100%;
+    height: 350px;
+    overflow-y: auto;
+    padding: 0px 8px 0px 8px;
+    border: 2px solid #b4b4b4;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#prize::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #ffc0cb;
+  }
+#prize::-webkit-scrollbar {
+    width: 8px;
+    background-color: black;
+  }
+#prize::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #bb6573;
+}
+.props{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+.appleBigprizeText{
+    background-color: rgb(228, 228, 39);
+    margin: 0;
+}
+.appleText{
+    color: rgb(177, 177, 177);
+    margin: 0;
+}
+.goldboxText{
+    color: rgb(185, 180, 223);
+    margin: 0;
+}
+.blackchipsText{
+    color: rgb(230, 230, 230);
+    margin: 0;
+}
+.textPrize{
+    color: rgb(194, 125, 255);
+    font-weight: bold;
+}
+.btn{
+    margin-top: 15px;
+}
+.formImg{
+    width: 50px;
+    height: 50px;
+}
+.bgm{
+    max-height: 30px;
+}
+.spinner-border{
+    display: none;
+}
+@media (max-width: 1690px){
+    header{
+        margin-bottom: 0;
+    }
+}
+/* Phone iPad */
+@media screen and (min-width:200px) and (max-width:767px) {
+    p{
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    header{
+        display: block;
+        margin-bottom: 0;
+    }
+    header img{
+        width: 100%;
+    }
+    .apple1{
+        display: none;
+    }
+    .apple2{
+        display: none;
+    }
+    .formImg{
+        width: 25px;
+        height: 25px;
+    }
+    .bgm{
+        display: none;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .prize{
+        max-height: 250px;
+    }
+    .flex-space-between{
+        display: block;
+    }
+}
