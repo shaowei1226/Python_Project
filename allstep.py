@@ -59,7 +59,7 @@ time.sleep(1)
 button_element = driver.find_element(By.XPATH,"//button[@class='dt-button buttons-excel buttons-html5']")
 button_element.click()
 
-time.sleep(15)  
+time.sleep(1)  
 
 
 # 取得今天的日期和時間
