@@ -42,8 +42,8 @@ username_field = driver.find_element(By.NAME,"uid")
 password_field = driver.find_element(By.NAME,"pwd")  
 login_button = driver.find_element(By.ID,"button")  
 
-username_field.send_keys("E2022054")
-password_field.send_keys("H125406999")
+username_field.send_keys("請輸入帳號")
+password_field.send_keys("請輸入密碼")
 login_button.click()
 
 
